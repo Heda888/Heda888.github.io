@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[用hexo+GitHub搭建个人博客]]></title>
+    <url>%2F2018%2F04%2F21%2F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[从头开始搭建，确实有点难度。但是只要坚持，冷静。多思考思考，就一定能够搭建成功。 在看视频过程中，发现一个问题，就是他们把有的步骤省略了，以致于卡在那里，不知所云。不明白原理，就算是搭建出来了，也不知道如何修改主题，如何写博 客。很是头疼。所以，就从一个小白的角度，以windows操作系统，64位写一个教程，方便大家少走弯路。 这里有我做的思维导图 http://naotu.baidu.com/file/306a4a50b982571003992285c1b2186b大家可以看一下总体框架。 #第一步，准备软件 1.node.js(百度搜索进入官网) 选择download，选择相对应的电脑系统和位数 然后安装即可。 2.Get （百度搜素 Git download） 进入下载安装即可。 3.文本编辑器 Sublime Text34.markdown2下载安装 5.GitHub账号 #第二步，建立本地hexo文件 ##1.在D盘建立一个命名为My Blog的文件夹（这里一D盘为例，另外的盘和文件名都可）； ##2.打开浏览器，输入hexo.io进入hexo官网 ##3.在My Blog 里面空白处右击，选择“Git Bash here” 将刚才复制的命令npm install hexo-cli -g Paste，回车等待。 ##4.输入hexo.init 将会下载东西到My Blog文件里面； ##5.主题 在https://hexo.io/themes/选择喜欢的主题,进入，找到 Installation,复制里面的git clone https地址,在Git复制，回车; 更新主题：找到My Blog 里面的themes文件位置，右击打开Git ,输入git pull即可。 生成主题：将npm install hexo-generator-json-content –save命令输入到Git； 配置：找到My Blog 目录下的-config.yml，用文本编辑器打开，修改theme,改为刚才下载的主题名字。 ##6.本地测试 输入hexo s，会出现测试网址，复制到浏览器打开，查看效果。 #第三步，部署到github ##到了最重要的一步了，在本地建立了博客，怎么上传到网上，让大家都能看到才是最重要的，好，让我们开始吧。 ###1.在GitHub上建立仓库，命名为：用户名.GitHub.io ###2.接下来就是上传了，需要几个命令，在My Blog文件夹里 右击鼠标，选择 “Git Bash Here” 12$ git fig --global user.name &quot;your name&quot;$ git fig --global user.email &quot;your email&quot; 其中，your name 就是你的GitHub的名字 your email 是你的邮箱 ###3.生成SSH,输入以下命令1$ ssh-keygen -t rsa -C &quot;your email&quot; 此处邮箱和上面的邮箱同一个。 接着命令行会提示你输入回车命令，连续三次回车，即可。 ###4.打开C盘用户里面的.ssh文件，选择id-rsa.pub,用记事本打开，复制 ###5.在GitHub里的setting里面，找到Deploy keys,添加deloy key,粘贴复制的东西，然后Add key. ###6.会提示输入你的GitHub账号密码,密码是你的GitHub登陆密码。 ###7.开始上传 12$ hexo clear$ hexo g -hexo clear 是清除本地缓存 -hexo g 是生成静态文件 由于新版本的hexo 不支持上传，需要安装插件 -进入hexo.io/docs 找到安装命令 1$ npm install hexo-deployer-git --save ###8.在根目录下找到-config.yml,位置在文章末尾 -deploy: type: git repo: 你的GitHub上的SSH地址 branch: ###9.输入 hexo d，开始部署到github 上，上传时会弹出Open SSH，填写 yes 点击OK，等待一会儿，上传成功。 刷新你的GitHub，你会看多了一些文件，这时就表示部署成功。 #第四步，绑定域名 如果你已经购买了自己的域名，首先解析自己的域名。然后在GitHub的setting里面有custom domain 将你购买的域名输入，点击保存。 现在你就可以在网站输入你的域名，开始访问你的个人博客了。 最后，可以这样新建文章，在My Blog 里面的soruce文件夹里面_posts，里面有原始文章，hello world,你可以将里面—（三条横线）下面的内容删除，写入自己想写的东 西。然后重命名，另存为。也可以直接用下载markdown2写东西，最后保存到上述目录即可。 这是可以用hexo s命令在本地查看。没有问题，只需要用一下三个命令就可以部署到GitHub上了。 hexo clearhexo ghexo d 博客部署到这里就大概结束了。有什么不懂的可以留言。祝大家成功。]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[小桥流水人家第一回]]></title>
+    <url>%2F2018%2F04%2F21%2F123%2F</url>
+    <content type="text"><![CDATA[最近接触了一些网络知识，想着建个博客，记录记生活，也分享一点新奇的观点，个人所悟。另外，家族从医，写点关于医学， 养生的知识，如果大家觉得还不错，欢迎大家及时关注。]]></content>
+      <categories>
+        <category>开头说明</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>前言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于]]></title>
     <url>%2F2018%2F04%2F21%2F1%2F</url>
     <content type="text"><![CDATA[这是我的个人网站，欢迎大家光临，有问题可以留言，多多交流，烦恼就会少很多，人生不过百年，相对于生死，我们平时遇到的挫折更能使我们成长。 https://i.loli.net/2018/04/21/5adae4d393eef.jpg]]></content>
