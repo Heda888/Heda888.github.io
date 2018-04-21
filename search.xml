@@ -7,6 +7,9 @@
       <categories>
         <category>养生</category>
       </categories>
+      <tags>
+        <tag>医学</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[用hexo+GitHub搭建个人博客]]></title>
