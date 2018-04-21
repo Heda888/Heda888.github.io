@@ -114,7 +114,10 @@
 <meta property="og:image" content="https://i.imgur.com/iWl5WdB.png">
 <meta property="og:image" content="https://i.imgur.com/YnfMH8W.png">
 <meta property="og:image" content="https://i.imgur.com/ddPncjR.png">
-<meta property="og:updated_time" content="2018-04-21T06:49:11.591Z">
+<meta property="og:image" content="https://i.loli.net/2018/04/21/5adaf180dce39.png">
+<meta property="og:image" content="https://i.loli.net/2018/04/21/5adaf1d537dd3.png">
+<meta property="og:image" content="https://i.loli.net/2018/04/21/5adaf35bdaae7.png">
+<meta property="og:updated_time" content="2018-04-21T08:54:42.492Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用hexo+GitHub搭建个人博客">
 <meta name="twitter:description" content="从头开始搭建，确实有点难度。但是只要坚持，冷静。多思考思考，就一定能够搭建成功。    在看视频过程中，发现一个问题，就是他们把有的步骤省略了，以致于卡在那里，不知所云。不明白原理，就算是搭建出来了，也不知道如何修改主题，如何写博    客。很是头疼。所以，就从一个小白的角度，以windows操作系统，64位写一个教程，方便大家少走弯路。    这里有我做的思维导图    http://na">
@@ -342,7 +345,7 @@
                 
               
 
-              <time title="创建时间：2018-04-21 11:21:50 / 修改时间：14:49:11" itemprop="dateCreated datePublished" datetime="2018-04-21T11:21:50+08:00">2018-04-21</time>
+              <time title="创建时间：2018-04-21 11:21:50 / 修改时间：16:54:42" itemprop="dateCreated datePublished" datetime="2018-04-21T11:21:50+08:00">2018-04-21</time>
             
 
             
@@ -403,22 +406,49 @@
 <p>   客。很是头疼。所以，就从一个小白的角度，以windows操作系统，64位写一个教程，方便大家少走弯路。</p>
 <p>   这里有我做的思维导图</p>
 <p>   <a href="http://naotu.baidu.com/file/306a4a50b982571003992285c1b2186b" title="博客搭建思维导图" target="_blank" rel="noopener">http://naotu.baidu.com/file/306a4a50b982571003992285c1b2186b</a>大家可以看一下总体框架。</p>
-<p>  第一步，准备软件</p>
-<p>   1.node.js(百度搜索进入官网)<br>  <img src="https://i.imgur.com/H0dSCm5.png" alt=""><br>  选择download，选择相对应的电脑系统和位数<br>  <img src="https://i.imgur.com/iWl5WdB.png" alt=""><br>  然后安装即可。</p>
-<pre><code>2.Get （百度搜素 Git download）
-</code></pre><p>   <img src="https://i.imgur.com/YnfMH8W.png" alt=""><br>  进入下载安装即可。</p>
-<p>   3.文本编辑器 Sublime Text3</p>
-<p>   4.markdown2下载安装</p>
-<p>   5.GitHub账号</p>
-<p>第二步，建立本地hexo文件</p>
-<p>1.在D盘建立一个命名为My Blog的文件夹（这里一D盘为例，另外的盘和文件名都可）；</p>
-<p>2.打开浏览器，输入hexo.io进入hexo官网</p>
+<p>  #第一步，准备软件</p>
+<h2 id="1-node-js-百度搜索进入官网"><a href="#1-node-js-百度搜索进入官网" class="headerlink" title="1.node.js(百度搜索进入官网)"></a>1.node.js(百度搜索进入官网)</h2><p>  <img src="https://i.imgur.com/H0dSCm5.png" alt=""><br>  选择download，选择相对应的电脑系统和位数<br>  <img src="https://i.imgur.com/iWl5WdB.png" alt=""><br>  然后安装即可。</p>
+<h2 id="2-Get-（百度搜素-Git-download）"><a href="#2-Get-（百度搜素-Git-download）" class="headerlink" title="2.Get （百度搜素 Git download）"></a>2.Get （百度搜素 Git download）</h2><p>   <img src="https://i.imgur.com/YnfMH8W.png" alt=""><br>  进入下载安装即可。</p>
+<h2 id="3-文本编辑器-Sublime-Text3"><a href="#3-文本编辑器-Sublime-Text3" class="headerlink" title="3.文本编辑器 Sublime Text3"></a>3.文本编辑器 Sublime Text3</h2><h2 id="4-markdown2下载安装"><a href="#4-markdown2下载安装" class="headerlink" title="4.markdown2下载安装"></a>4.markdown2下载安装</h2><p>   5.GitHub账号</p>
+<p>#第二步，建立本地hexo文件</p>
+<p>##1.在D盘建立一个命名为My Blog的文件夹（这里一D盘为例，另外的盘和文件名都可）；</p>
+<p>##2.打开浏览器，输入hexo.io进入hexo官网</p>
 <p><img src="https://i.imgur.com/ddPncjR.png" alt=""></p>
-<p>3.在My Blog 里面空白处右击，选择“Git Bash here”<br>    将刚才复制的命令npm install hexo-cli -g  Paste，回车等待。</p>
-<p>4.输入hexo.init<br>    将会下载东西到My Blog文件里面；</p>
-<p>5.主题<br>     在<a href="https://hexo.io/themes/选择喜欢的主题,进入，找到" target="_blank" rel="noopener">https://hexo.io/themes/选择喜欢的主题,进入，找到</a> Installation,复制里面的git clone https地址,在Git复制，回车;<br>     更新主题：找到My Blog 里面的themes文件位置，右击打开Git   ,输入git pull即可。<br>     生成主题：将npm install hexo-generator-json-content –save命令输入到Git；<br>     配置：找到My Blog 目录下的-config.yml，用文本编辑器打开，修改theme,改为刚才下载的主题名字。</p>
-<p>6.本地测试<br>      输入hexo s，会出现测试网址，复制到浏览器打开，查看效果。</p>
+<p>##3.在My Blog 里面空白处右击，选择“Git Bash here”<br>    将刚才复制的命令npm install hexo-cli -g  Paste，回车等待。</p>
+<p>##4.输入hexo.init<br>    将会下载东西到My Blog文件里面；</p>
+<p>##5.主题<br>     在<a href="https://hexo.io/themes/选择喜欢的主题,进入，找到" target="_blank" rel="noopener">https://hexo.io/themes/选择喜欢的主题,进入，找到</a> Installation,复制里面的git clone https地址,在Git复制，回车;<br>     更新主题：找到My Blog 里面的themes文件位置，右击打开Git   ,输入git pull即可。<br>     生成主题：将npm install hexo-generator-json-content –save命令输入到Git；<br>     配置：找到My Blog 目录下的-config.yml，用文本编辑器打开，修改theme,改为刚才下载的主题名字。</p>
+<p>##6.本地测试<br>      输入hexo s，会出现测试网址，复制到浏览器打开，查看效果。</p>
+<p>#第三步，部署到github</p>
+<p>  ##到了最重要的一步了，在本地建立了博客，怎么上传到网上，让大家都能看到才是最重要的，好，让我们开始吧。</p>
+<p>  ###1.在GitHub上建立仓库，命名为：用户名.GitHub.io</p>
+<p>  ###2.接下来就是上传了，需要几个命令，在My Blog文件夹里 右击鼠标，选择 “Git Bash Here”<br>     <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git fig --global user.name &quot;your name&quot;</span><br><span class="line">$ git fig --global user.email &quot;your email&quot;</span><br></pre></td></tr></table></figure></p>
+<p>其中，your name 就是你的GitHub的名字<br>     your email 是你的邮箱</p>
+<p>###3.生成SSH,输入以下命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;your email&quot;</span><br></pre></td></tr></table></figure></p>
+<pre><code>此处邮箱和上面的邮箱同一个。
 
+接着命令行会提示你输入回车命令，连续三次回车，即可。
+</code></pre><p>###4.打开C盘用户里面的.ssh文件，选择id-rsa.pub,用记事本打开，复制</p>
+<p>###5.在GitHub里的setting里面，找到Deploy keys,添加deloy key,粘贴复制的东西，然后Add key.</p>
+<p>###6.会提示输入你的GitHub账号密码,密码是你的GitHub登陆密码。</p>
+<p>###7.开始上传</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clear</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<p>  -hexo clear 是清除本地缓存<br>  -hexo g     是生成静态文件</p>
+<p>由于新版本的hexo 不支持上传，需要安装插件</p>
+<p>  -进入hexo.io/docs  找到安装命令<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>###8.在根目录下找到-config.yml,位置在文章末尾<br>  -deploy:<br>   type: git<br>   repo: 你的GitHub上的SSH地址<br>   branch:</p>
+<p><img src="https://i.loli.net/2018/04/21/5adaf180dce39.png" alt="K3}46R%6L_OH%1XL@FJXH@3.png"></p>
+<p><img src="https://i.loli.net/2018/04/21/5adaf1d537dd3.png" alt="{}]DCOXRQP)E%QA)@9%V_32.png"></p>
+<p>###9.输入   hexo d，开始部署到github 上，上传时会弹出Open SSH，填写 yes  点击OK，等待一会儿，上传成功。</p>
+<pre><code>刷新你的GitHub，你会看多了一些文件，这时就表示部署成功。
+</code></pre><p> <a href="https://i.loli.net/2018/04/21/5adaf35bdaae7.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/04/21/5adaf35bdaae7.png" alt="`7XU4V1CFYPZHAQT%_S})GQ.png"></a></p>
+<p>#第四步，绑定域名<br>   如果你已经购买了自己的域名，首先解析自己的域名。然后在GitHub的setting里面有custom domain  将你购买的域名输入，点击保存。</p>
+<p>   现在你就可以在网站输入你的域名，开始访问你的个人博客了。</p>
+<p>最后，可以这样新建文章，在My Blog 里面的soruce文件夹里面_posts，里面有原始文章，hello world,你可以将里面—（三条横线）下面的内容删除，写入自己想写的东</p>
+<p>西。然后重命名，另存为。也可以直接用下载markdown2写东西，最后保存到上述目录即可。</p>
+<p>这是可以用hexo s命令在本地查看。没有问题，只需要用一下三个命令就可以部署到GitHub上了。</p>
+<p>hexo clear<br>hexo g<br>hexo d</p>
+<pre><code>博客部署到这里就大概结束了。有什么不懂的可以留言。祝大家成功。
+</code></pre>
       
     </div>
 
@@ -490,6 +520,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/04/21/1/" rel="prev" title="关于">
+                关于 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -537,8 +571,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -574,7 +617,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -643,6 +688,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-node-js-百度搜索进入官网"><span class="nav-number">1.</span> <span class="nav-text">1.node.js(百度搜索进入官网)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Get-（百度搜素-Git-download）"><span class="nav-number">2.</span> <span class="nav-text">2.Get （百度搜素 Git download）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-文本编辑器-Sublime-Text3"><span class="nav-number">3.</span> <span class="nav-text">3.文本编辑器 Sublime Text3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-markdown2下载安装"><span class="nav-number">4.</span> <span class="nav-text">4.markdown2下载安装</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
