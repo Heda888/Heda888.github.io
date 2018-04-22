@@ -1956,7 +1956,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f2fa47;
+  background: #0634ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3222,5 +3222,16 @@ ul.breadcrumb li+li:last-child {
   }
   .pagination {
     margin: 8px 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/timo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
   }
 }
